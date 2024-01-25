@@ -17,7 +17,8 @@ There are basically two ways to insert data for manipulation in pandas. They are
   Both excel files read the dataset in a similar manner and the pandas can read the excel file by the following command:
   ```python
 DataFrame = pandas.read_excel("FileName.excel")
-or
+```
+```python
 DataFrame = pandas.read_excel(r"FilePath.excel")
 ```
 
@@ -25,6 +26,7 @@ DataFrame = pandas.read_excel(r"FilePath.excel")
   Both excel files read the dataset in a similar manner and the pandas can read the excel file by the following command:
   ```python
 DataFrame = pandas.read_csv("FileName.csv")
-or
+```
+```python
 DataFrame = pandas.read_csv(r"FilePath.csv")
 ```
