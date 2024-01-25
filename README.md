@@ -22,7 +22,7 @@ DataFrame = pandas.read_excel("FileName.excel")
 DataFrame = pandas.read_excel(r"FilePath.excel")
 ```
 
-## 2. cSV files (comma separated values)
+## 2. CSV files (comma separated values)
   Both excel files read the dataset in a similar manner and the pandas can read the excel file by the following command:
   ```python
 DataFrame = pandas.read_csv("FileName.csv")
